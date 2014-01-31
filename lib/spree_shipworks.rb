@@ -1,5 +1,8 @@
-require "spree_shipworks/engine"
-require "spree_shipworks/dsl"
+require "spree/shipworks/engine"
+require "spree/shipworks/dsl"
 
-module SpreeShipworks
+module Spree
+  module Shipworks
+    
+  end
 end

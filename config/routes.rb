@@ -1,3 +1,5 @@
-SpreeShipworks::Engine.routes.draw do
-  match '/api' => 'api#action'
+Spree::Core::Engine.add_routes do
+  namespace :shipworks do
+    post '/' => 'api#action'
+  end
 end

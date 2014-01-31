@@ -1,0 +1,5 @@
+module Spree
+  module Shipworks
+    VERSION = "1.0.0"
+  end
+end
